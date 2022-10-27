@@ -6,7 +6,7 @@
   "license": "MIT",
   "test": "jest",
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node src/",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },

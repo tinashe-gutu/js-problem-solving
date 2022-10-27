@@ -1,8 +1,41 @@
-# JavaScript Kata Template
+# JavaScript Problem Solving
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+>Below are problem sets from different sites.  
+All problems are solved using JavaScript.  
+All problems are teseted using Jest
+<a> </a>
 
-> This is part of Academy's technical curriculum for **The Mark**. All parts of that curriculum, including this project, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+---
+## K A T A S
+<details>
+<summary>4 Kyu</summary>
+
+### [4kyu katas folder](src/katas/4kyu)
+</details>
+
+<details>
+<summary>5 Kyu</summary>
+
+### [5kyu katas folder](src/katas/5kyu)
+</details>
+
+<details>
+<summary>6 Kyu</summary>
+
+### [6kyu katas folder](src/katas/6kyu)
+</details>
+
+<details>
+<summary>7 Kyu</summary>
+
+### [7kyu katas folder](src/katas/7kyu)
+</details>
+
+---
+
+
+
+
 
 # Setup
 
@@ -22,8 +55,6 @@ or
 
 # Run without tests
 
-`yarn start` - this will run node src/main.js
+`yarn start katas/{filepath}` - this will run node src/katas{filepath}
 
-# Writing tests
 
-See https://jestjs.io/docs/expect
