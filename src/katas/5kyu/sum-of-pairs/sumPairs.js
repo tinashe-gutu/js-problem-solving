@@ -3,6 +3,8 @@ eturn the first two values (parse from the left please) in order of appearance t
 If there are two or more pairs with the required sum, 
 the pair whose second element has the smallest index is the solution. 
 
+NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements.
+     Be sure your code doesn't time out
 */
 
 /** return pair of numbers that sum to a target sum
@@ -38,3 +40,5 @@ the pair whose second element has the smallest index is the solution.
     }
     return pair;
 }
+
+module.exports = sumPairs

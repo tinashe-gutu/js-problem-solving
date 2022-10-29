@@ -7,7 +7,7 @@
 
 ---
 
-## K A T A S
+## CodeWars K A T A S
 
 <details>
 <summary>4 Kyu</summary>
