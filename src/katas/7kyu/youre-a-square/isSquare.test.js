@@ -5,5 +5,6 @@ test("Determine if number is a square number", () => {
   expect(isSquare(-1)).toBe(false);
   expect(isSquare(25)).toBe(true);
   expect(isSquare(0)).toBe(true);
-  expect(isSquare(4)).toBe(true);
+  expect(isSquare(100000000000000000000000000)).toBe(true);
 });
+

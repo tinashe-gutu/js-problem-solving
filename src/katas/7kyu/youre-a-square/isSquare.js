@@ -21,4 +21,6 @@ function isSquare(num) {
   return Math.sqrt(num) === Math.ceil(Math.sqrt(num)) ? true : false;
 }
 
+
+
 module.exports = isSquare;
