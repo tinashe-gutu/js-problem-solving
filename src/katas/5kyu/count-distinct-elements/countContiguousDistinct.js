@@ -11,16 +11,8 @@
  * @returns {number[]}
  */
 
-function countContiguousDistinct(k, arr) {
+function countContiguousDistinct(arr, k) {
         let kArray = arr.slice(0, k)
-      function isInArray(arr, item){
-         for(num of arr){
-          if(num===item){
-              return true;
-          }
-         }
-         return false;
-      }
       let distinctCount = new Set(kArray).size
       let resualtArr = [distinctCount]
       for(let i =0; i<arr.length-k; i++) {
@@ -41,3 +33,21 @@ function countContiguousDistinct(k, arr) {
           }
           return resualtArr;
   }
+
+
+  /**Checks if number is in a given array
+   * 
+   * @param {number[]} arr - subarray of original array
+   * @param {number} item  - target number
+   * @returns {boolean}
+   */
+  function isInArray(arr, item){
+    for(num of arr){
+     if(num===item){
+         return true;
+     }
+    }
+    return false;
+ }
+
+  module.exports = countContiguousDistinct;
