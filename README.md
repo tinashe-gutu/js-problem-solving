@@ -13,14 +13,15 @@
 <summary>4 Kyu</summary>
 
 ### [4kyu katas folder](src/katas/4kyu)
-
+[1. remove-zeros](src/katas/4kyu/remove-zeros)
 </details>
 
 <details>
 <summary>5 Kyu</summary>
 
 ### [5kyu katas folder](src/katas/5kyu)
-[1. sum-of-pairs](src/katas/5kyu/sum-of-pairs)
+[1. sum-of-pairs](src/katas/5kyu/sum-of-pairs)  
+[2. count-distinct-elements](src/katas/5kyu/count-distinct-elements)
 </details>
 
 <details>
@@ -36,7 +37,6 @@
 ### [7kyu katas folder](src/katas/7kyu)
 
 [1. you're-a-square](src/katas/7kyu/youre-a-square)
-[2. count-distinct-elements](src/katas/5kyu/count-distinct-elements)
 
 </details>
 
