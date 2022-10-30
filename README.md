@@ -20,7 +20,7 @@
 <summary>5 Kyu</summary>
 
 ### [5kyu katas folder](src/katas/5kyu)
-
+[1. sum-of-pairs](src/katas/5kyu/sum-of-pairs)
 </details>
 
 <details>
@@ -36,6 +36,7 @@
 ### [7kyu katas folder](src/katas/7kyu)
 
 [1. you're-a-square](src/katas/7kyu/youre-a-square)
+[2. count-distinct-elements](src/katas/5kyu/count-distinct-elements)
 
 </details>
 
