@@ -8,5 +8,5 @@ test('sumPairs finds pairs that sum to taget', ()=>{
 })
 test('sumPairs returns pair with earliest second pair if two are found', ()=>{
     expect(sumPairs([10, 5, 2, 3, 7, 5], 10)).toEqual([3,7])
-    expect(sum_pairs([10, 6, 4, 3, 7, 8], 13)).toEqual([10,3])
+    expect(sumPairs([10, 6, 4, 3, 7, 8], 13)).toEqual([10,3])
 })

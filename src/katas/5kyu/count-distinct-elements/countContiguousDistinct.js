@@ -19,8 +19,7 @@ function countContiguousDistinct(arr, k) {
     let leaving = kArray.shift();
     let entering = arr[i + k];
     if (leaving != entering && isInArray(kArray, leaving)) {
-      if (isInArray(kArray, entering)) {
-      } else {
+      if (!isInArray(kArray, entering)){
         distinctCount++;
       }
     } else if (leaving != entering && !isInArray(kArray, leaving)) {
@@ -41,7 +40,7 @@ function countContiguousDistinct(arr, k) {
  * @returns {boolean}
  */
 function isInArray(arr, item) {
-  for (num of arr) {
+  for (const num of arr) {
     if (num === item) {
       return true;
     }
