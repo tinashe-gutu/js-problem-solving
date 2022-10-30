@@ -12,9 +12,9 @@ end of the array, while the other elements maintain order.
 function removeZeros(array) {
     let valueHolder;
     for(i=0; i<array.length; i++){
-        if(array[i-1] == "0" && (array[i]!=="0" && array[i]!==0)){
+        if(+array[i-1] === 0 && (+array[i]!==0 && +array[i]!==0)){
             for(j=i-1; j>=0; j--){
-                if(array[j] =='0'){
+                if(+array[j] === 0){
                     valueHolder = array[j+1];
                     array[j+1] = array[j];
                     array[j] = valueHolder;
@@ -24,3 +24,5 @@ function removeZeros(array) {
     }
 return array;
 }
+
+module.exports = removeZeros;
